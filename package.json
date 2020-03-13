@@ -25,7 +25,7 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1",
-    "typescript": "~3.7.2"
+    "typescript": "^3.7.5"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
@@ -61,10 +61,18 @@
     }
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-info": "^5.3.14",
     "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-viewport": "^5.3.14",
     "@storybook/addons": "^5.3.14",
-    "@storybook/preset-create-react-app": "^2.0.0",
-    "@storybook/react": "^5.3.14"
+    "@storybook/preset-create-react-app": "1.5.2",
+    "@storybook/react": "^5.3.14",
+    "fork-ts-checker-webpack-plugin": "^4.0.5",
+    "react-docgen-typescript-loader": "3.6.0",
+    "storybook-addon-jsx": "^7.1.14",
+    "ts-loader": "^6.2.1"
   }
 }
