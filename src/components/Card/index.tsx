@@ -12,8 +12,9 @@ const StyledCard = styled.div`
 `;
 
 const CardHeading = styled.h2`
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 4rem;
+  line-height: 2.5rem;
 `;
 
 export const Card: React.FC<CardProps> = ({ heading, children }) => (

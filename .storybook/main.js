@@ -48,6 +48,7 @@ module.exports = {
           tsconfigPath: path.resolve(__dirname, "../tsconfig.json")
         }
       }
-    }
+		},
+		'@storybook/addon-knobs/register'
   ]
 };
